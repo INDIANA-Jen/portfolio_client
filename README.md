@@ -14,7 +14,7 @@ cd portfolio-client
 pnpm install
 
 - Start the development server
-pnpm run dev ou pnpm run dev -- --open
+pnpm run dev or pnpm run dev -- --open
 
 
 
