@@ -4,22 +4,23 @@ This is a portfolio website created for one of my clients, built using Create + 
 
 ## Installation 
 
-- Clone the repository : 
+1. Clone the repository :
+```
 git clone (https://github.com/INDIANA-Jen/portfolio_client.git)
-
-- Navigate into the project directory
+```
+2. Navigate into the project directory
+```
 cd portfolio-client
-
-- Install dependencies
+```
+3. Install dependencies
+```
 pnpm install
-
-- Start the development server
+```
+4. Start the development server
+```
 pnpm run dev or pnpm run dev -- --open
-
 ```
-pnpm install
 
-```
 
 
 
