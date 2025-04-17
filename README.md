@@ -1,6 +1,6 @@
 ## Client portfolio project 
 
-This is a portfolio website created for one of my clients, built using Create + Vite. The goal of this project was to deliver a fast, responsive, and modern portfolio to showcase the client's work and professional background.
+This is a portfolio website created for one of my clients, built using **Create + Vite**. The goal of this project was to deliver a fast, responsive, and modern portfolio to showcase the client's work and professional background.
 
 ## Installation 
 
