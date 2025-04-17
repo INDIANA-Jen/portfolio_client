@@ -1,3 +1,13 @@
+## Client portfolio project 
+
+This is a portfolio website created for one of my clients, built using Create + Vite. The goal of this project was to deliver a fast, responsive, and modern portfolio to showcase the client's work and professional background.
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
