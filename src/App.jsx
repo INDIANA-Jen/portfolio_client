@@ -1,4 +1,15 @@
 import React from 'react'
+import Route from './Route'
+export default function App() {
+  return (
+    <>
+        <Route/>
+    </>
+  )
+}
+
+
+/*import React from 'react'
 import Home from "./pages/Home/Home";
 import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
@@ -26,4 +37,4 @@ export default function App() {
 
     </>
   )
-}
+}*/
