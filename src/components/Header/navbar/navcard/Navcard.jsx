@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 export default function Navcard({label, target}) {
   return (
     <div className='navcard'>
-      <a href= {target}>
+      <Link href= {target}>
         {label}
-      </a>
+      </Link>
     </div>
   )
 }
