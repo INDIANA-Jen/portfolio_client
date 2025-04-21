@@ -8,3 +8,6 @@ export default function Navcard({label, target}) {
     </div>
   )
 }
+
+//to verify and validate
+
