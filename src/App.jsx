@@ -1,9 +1,15 @@
 import React from 'react'
 import Route from './Route'
+
+import styles from './App.module.scss';
+
 export default function App() {
   return (
     <>
-        <Route/>
+    <div className={styles.container}>
+      <Route/>
+    </div>
+        
     </>
   )
 }
