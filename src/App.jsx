@@ -3,6 +3,8 @@ import Route from './Route'
 
 import styles from './App.module.scss';
 
+import './styles/Base.scss'
+
 export default function App() {
   return (
     <>
