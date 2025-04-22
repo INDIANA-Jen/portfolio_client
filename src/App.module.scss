@@ -3,12 +3,16 @@
 .container{
 
     position: absolute;
+    background-color: aqua;
+    overflow: hidden;
+    width: 95%;
     top: 6%;
     margin-left: 35px;
     margin-right: 35px;
-    overflow: hidden;
-    border-radius: 6px;
+    bottom: 6%;
     border: 0.5px solid $linesColor;
-    background-color: aqua;
+    border-radius: 6px;
+    
+   
 
 }
