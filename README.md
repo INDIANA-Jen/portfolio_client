@@ -21,6 +21,28 @@ pnpm install
 pnpm run dev or pnpm run dev -- --open
 ```
 
+## Dependency Used and Installation
+
+This project uses the `sass-embedded` dependency to compile SCSS files.
+
+```
+pnpm add -D sass-embedded
+```
+## Package Used and Installation
+
+1. Installation of React Router for Navigation :
+```
+pnpm add react-router-dom
+```
+
+2. Add react-scroll for Smooth Scrolling :
+```
+pnpm add react-scroll
+```
+
+
+
+
 
 
 
