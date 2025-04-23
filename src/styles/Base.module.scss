@@ -1,12 +1,15 @@
 @use './Variables.scss' as*;
 
+// The universal selector "*" targets all elements on the page. 
+// It applies a global reset of margins, padding, and box-sizing to avoid unexpected behaviors.
 *{
-    margin:0;
-    padding: 0;
-    box-sizing:border-box;
+    margin:0;    // Removes the default margin from all elements.
+    padding: 0; // Removes the default padding from all elements.
+    box-sizing:border-box; // Sets box-sizing to "border-box", meaning the dimensions of an element include the width and height of borders and padding.
 }
 
+// The style applied to the <body> tag on the page.
 body{
-    background-color:  $onePrimaryColor;
+    background-color:  $onePrimaryColor; // Sets the background color using the $onePrimaryColor variable, which comes from Variables.scss.
     
 }
