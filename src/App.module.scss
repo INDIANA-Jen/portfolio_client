@@ -1,18 +1,18 @@
+// Import the Variables.scss file, and use it under the alias "*". 
+// This allows the use of variables, functions, and mixins defined in this file without specifying a namespace.
 @use './styles/Variables.scss' as*;
 
 .container{
 
-    position: absolute;
-    background-color: aqua;
-    overflow: hidden;
-    width: 95%;
-    top: 6%;
-    margin-left: 35px;
-    margin-right: 35px;
-    bottom: 6%;
-    border: 0.5px solid $linesColor;
-    border-radius: 6px;
-    
-   
+    position: absolute; // Sets the position of the element to "absolute", placing it relative to its first positioned (non-static) ancestor.
+    background-color: aqua; // Tempory Applies a background color of "aqua" (light cyan) to the element.
+    overflow: hidden; //Hides any content that exceeds the dimensions of the element. It prevents scrollbars from appearing if content overflows.
+    width: 95%; // Sets the width of the element to 95% of its parent container's width.
+    top: 6%; // Positions the element 6% from the top of its parent container, based on its absolute position.
+    margin-left: 35px; // Adds a 35px margin to the left of the element, pushing its content away from the left edge of its container.
+    margin-right: 35px; // Adds a 35px margin to the right of the element.
+    bottom: 6%; // Positions the element 6% from the bottom of its parent container, adjusting its position relative to this lower edge.
+    border: 0.5px solid $linesColor; // Applies a fine 0.5px solid border around the element with the color defined in the $linesColor variable.
+    border-radius: 6px; // Applies a 6px radius to the corners of the element, creating rounded edges.
 
 }
