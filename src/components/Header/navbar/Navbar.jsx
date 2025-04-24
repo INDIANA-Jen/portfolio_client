@@ -8,6 +8,7 @@ import Navcard from './navcards/Navcard';
 // An array that contains the navigation items as objects. 
 // Each object has a label property for the link text and a target property for the route to which the link should redirect.
 const navItems = [
+  {label : 'micheal-weaver', target: '/'},
   { label: '_hello', target: '/' },  
   { label: '_about-me', target: '/about' },  
   { label: '_projects', target: '/project' },  
