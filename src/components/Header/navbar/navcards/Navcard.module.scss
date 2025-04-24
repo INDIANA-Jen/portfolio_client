@@ -1,10 +1,23 @@
+@use '../../../../styles/variables/SecondaryColor.scss' as*;
+
 .container{
 
-    background-color: red;
+   background-color: red;
+   
 
     .Link{
 
-        background-color: blueviolet;
+        background-color: rgb(200, 188, 210);
+        color: $oneSecondaryColor;
+        text-decoration: none;
+        
     }
+
+    
+ /*
+    &:hover {
+    background-color: #444; // petit effet au survol
+  }
+ */
 
 }

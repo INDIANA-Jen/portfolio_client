@@ -5,11 +5,14 @@
 .container{
 
     background-color: $threePrimaryColor;
-    position: relative;
+    display: flex; //  Aligne les enfants (les Navcard) horizontalement
+    //gap: 20px;//et Espacement entre les éléments (ajustable) voir la différence :  //justify-content: space-between; 
+    height: 50px; // voir la différence padding: 10rem;
+    /* position: relative;
     width: 100%;
     z-index: 999; 
     height: 50px;
-    overflow: hidden;
+    overflow: hidden;*/
 
 }
 /*//@use 'Variables.scss' as*;
