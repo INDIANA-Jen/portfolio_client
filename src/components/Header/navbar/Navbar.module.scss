@@ -1,0 +1,92 @@
+//@use '../../../styles/variables/PrimaryColor.scss';
+
+@use '../../../styles/variables/PrimaryColor.scss' as*;
+
+.container{
+
+    background-color: $threePrimaryColor;
+    position: relative;
+    width: 100%;
+    z-index: 999; 
+    height: 50px;
+    overflow: hidden;
+
+}
+/*//@use 'Variables.scss' as*;
+//@use 'Commun.scss' as*;
+@use '../../../styleCommon/Variables.scss' as*;
+@use '../../../styleCommon/Common.scss' as*;
+
+.header{
+
+    //background-color: $twoSecondaryColor;
+    //position: absolute;  
+    position: relative;
+    width: 100%; 
+    //position: fixed;
+    z-index: 999;
+    height: 50px;
+
+    .navContainer{
+        background-color: $twoPrimaryColor;
+        display: flex;
+        height:100%;
+        color:$oneSecondaryColor;
+        font-family: $fontfamily;
+        font-size: $Lables;
+        overflow: hidden;
+
+        .navList{
+            display: flex;
+           // background-color: rgb(0, 255, 225);
+            list-style: none;
+            width: 100%;
+
+            .yourname, .items, .navContact, .navnull{
+                display: flex;
+                align-items: center;
+                text-align: center;
+                height: 100%;
+                border: 0.5px solid $linesColor;
+               // box-shadow: inset 0 0 0 0.5px $oneSecondaryColor;
+               //box-shadow: rgba(96, 123, 150) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+            }
+
+            .yourname, .items, .navnull {
+                border-right: none;
+            }
+
+            .yourname{
+                
+                //background-color: red;
+                flex-grow: 4;
+                .contyourname {
+
+                    margin-left: 6%;
+                }
+
+            }
+            .items{
+                //background-color: blue;
+                flex-grow: 1;
+                display: flex;
+                justify-content: center;
+                
+            }
+            .navContact{
+
+                display: flex;
+                flex-grow: 1;
+                justify-content: center;
+            }
+
+            .navnull{
+
+                display: flex;
+                flex-grow: 20;
+
+            }
+
+
+        }
+        */
