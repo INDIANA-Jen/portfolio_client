@@ -14,7 +14,7 @@ export default function Navcard({label, target}) {
     // A div container with the class 'contenair', used to style this component.
     <div className={styles.container}>
       {/* The Link component allows navigation to the route specified by target. */}
-      <Link className={styles.Link} to={target}>{label}</Link>
+      <Link className={styles.Link} to={target} data-label={label}>{label}</Link>
     </div>
   )
 }
