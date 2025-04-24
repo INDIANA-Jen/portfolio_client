@@ -1,6 +1,6 @@
 // Import the Variables.scss file, and use it under the alias "*". 
 // This allows the use of variables, functions, and mixins defined in this file without specifying a namespace.
-@use './styles/Variables.scss' as*;
+@use './styles/variables/LineColor.scss' as*;
 
 .container{
 
