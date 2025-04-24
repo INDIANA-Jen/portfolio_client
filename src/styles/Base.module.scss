@@ -1,4 +1,4 @@
-@use './Variables.scss' as*;
+@use './variables/PrimaryColor.scss' as*;
 
 // The universal selector "*" targets all elements on the page. 
 // It applies a global reset of margins, padding, and box-sizing to avoid unexpected behaviors.
