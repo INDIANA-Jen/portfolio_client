@@ -16,7 +16,7 @@ import Project from './Pages/project/Project';
 import Contact from './Pages/contact/Contact';
 
 //We import the navigation bar component, which is displayed on every page.
-import Navbar from './Components/header/navbar/Navbar';
+import Navbar from './Components/Header/navbar/Nav';
 
 
 //We declare and export a functional component named **Routepage**.

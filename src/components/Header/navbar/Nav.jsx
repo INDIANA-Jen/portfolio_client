@@ -2,7 +2,7 @@ import React from 'react';
 
 //Importing the Navcard component we saw earlier, which represents a link with a label and a destination.
 //import Navcard from './navcard/Navcard';
-import styles from './Navbar.module.scss';
+import styles from './Nav.module.scss';
 import Navcard from './navcards/Navcard';
 
 // An array that contains the navigation items as objects. 
