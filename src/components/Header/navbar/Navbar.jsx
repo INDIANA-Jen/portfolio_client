@@ -1,8 +1,9 @@
 import React from 'react';
 
 //Importing the Navcard component we saw earlier, which represents a link with a label and a destination.
-import Navcard from './navcard/Navcard';
+//import Navcard from './navcard/Navcard';
 import styles from './Navbar.module.scss';
+import Navcard from './navcards/Navcard';
 
 // An array that contains the navigation items as objects. 
 // Each object has a label property for the link text and a target property for the route to which the link should redirect.
