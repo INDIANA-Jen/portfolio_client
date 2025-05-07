@@ -28,8 +28,8 @@ import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Project from './pages/project/Project';
 import Contact from './pages/contact/Contact';
-import Navbar from './components/Navbar'; // Import de la Navbar
-
+//import Navbar from './components/Navbar'; // Import de la Navbar
+import Navbar from './Components/Header/navbar/Nav';
 const Layout = () => {
   return (
     <>
