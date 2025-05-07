@@ -1,4 +1,4 @@
-import React from 'react';
+{/*import React from 'react';
 
 
 import { Link } from 'react-router-dom';
@@ -16,5 +16,20 @@ export default function Navcard({label, target}) {
     </div>
   )
 }
+  */}
+
+// src/components/navcards/Navcard.js
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styles from './Navcard.module.scss';
+
+export default function Navcard({ label, target }) {
+  return (
+    <Link to={target} className={styles.navcard}>
+      {label}
+    </Link>
+  );
+}
+
 
 
