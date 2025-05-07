@@ -13,7 +13,7 @@ export default function App() {
   return (
     <>
     <div className={styles.container}>
-      <Route/> {/* Include the entire routing system in this. */}
+      <Route /> {/* Include the entire routing system in this. */}
     </div>
         
     </>
