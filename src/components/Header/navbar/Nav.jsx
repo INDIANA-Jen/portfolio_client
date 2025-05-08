@@ -24,7 +24,7 @@ export default function Navbar() {
           label : the text displayed on each link or the link text
           target : the route each link redirects to or the link destination
     
-    the key helps React keep track of each element during  dynamic rendering (here index is used, but an id would be more robust if available)
+    the key helps React keep track of each element during  dynamic rendering (here index is used, but an id )
      */}
   return (
     <div className={styles.container}>
