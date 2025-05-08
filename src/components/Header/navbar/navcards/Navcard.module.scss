@@ -1,0 +1,10 @@
+@use '../../../../styles/variables/SecondaryColor.scss' as*;
+
+.navcard{
+
+    background-color: red;
+    width: 292px;
+    .navlink{
+        text-decoration: none;
+    }
+}
