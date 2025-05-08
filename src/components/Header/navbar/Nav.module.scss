@@ -14,7 +14,12 @@
     
     justify-content: space-between;
     align-items: center;
-   
+    
+    .left, .center, .right {
+        display: flex;
+        gap: 1rem;
+
+      }
 
    
     
