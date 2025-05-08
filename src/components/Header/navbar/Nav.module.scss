@@ -1,6 +1,7 @@
 //@use '../../../styles/variables/PrimaryColor.scss';
 
 @use '../../../styles/variables/PrimaryColor.scss' as*;
+@use '../../../styles/variables/LineColor.scss' as *;
 
 //"tyles that control the overall layout of the Navcards
 
@@ -17,7 +18,7 @@
     
     .left, .center, .right {
         display: flex;
-        
+        border: 0.5px solid $linesColor;
 
       }
 
@@ -30,13 +31,13 @@
       .left {
         
         justify-content: flex-start;
-        background-color: blue;
+       // background-color: blue;
         width: 230px;
       }
       
       .right {
        // justify-content: flex-end;
-        background-color: blue;
+        //background-color: blue;
       }
 
    
