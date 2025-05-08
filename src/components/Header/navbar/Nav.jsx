@@ -15,7 +15,7 @@ import styles from './Nav.module.scss';
   { label: '_contact-me', target: '/contact' },
 ];*/
 
-const leftItem = [{ label: 'micheal-weaver', target: '/' }];
+const leftItem = { label: 'micheal-weaver', target: '/' };
 
 const centerItems = [
   { label: '_hello', target: '/' },
