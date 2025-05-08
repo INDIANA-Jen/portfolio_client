@@ -1,10 +1,14 @@
 @use '../../../../styles/variables/SecondaryColor.scss' as*;
+@use '../../../../styles/variables/Fontfamily.scss' as*;
+@use '../../../../styles/variables/Fontsize.scss' as *;
 
 .navcard{
 
-    
-
     .navlink{
+
         text-decoration: none;
+        color:$oneSecondaryColor;
+        font-family: $fontfamily;
+        font-size: $Lables;
     }
 }
