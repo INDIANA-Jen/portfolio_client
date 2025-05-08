@@ -2,12 +2,17 @@
 
 @use '../../../styles/variables/PrimaryColor.scss' as*;
 
+//"tyles that control the overall layout of the Navcards
+
 .container{
 
     background-color: $threePrimaryColor;
-    display: flex; //  Aligne les enfants (les Navcard) horizontalement
+    height: 50px;
+    width: 292px;
+    flex-direction: column;
+    
     //gap: 20px;//et Espacement entre les éléments (ajustable) voir la différence :  //justify-content: space-between; 
-    height: 50px; // voir la différence padding: 10rem;
+     // voir la différence padding: 10rem;
     /* position: relative;
     width: 100%;
     z-index: 999; 
