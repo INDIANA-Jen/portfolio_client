@@ -2,31 +2,41 @@
 
 @use '../../../styles/variables/PrimaryColor.scss' as*;
 @use '../../../styles/variables/LineColor.scss' as *;
+@use '../../../styles/variables/Fontfamily.scss' as *;
+@use '../../../styles/variables/Fontsize.scss' as *;
+@use '../../../styles/variables/SecondaryColor.scss' as*;
 
 //"tyles that control the overall layout of the Navcards
 
 .container{
     display: flex;
-    //flex-direction: column;
     background-color: $threePrimaryColor;
     height: 50px;
     width: 100%;
     overflow: hidden;
-    
     justify-content: space-between;
     align-items: center;
+  
     
     .left, .center, .right {
         display: flex;
         border: 0.5px solid $linesColor;
+        padding: 0.9rem;
+        
 
       }
 
       .center {
         flex: 1;
-        gap: 1rem;
-       //justify-content: center;
-      }
+        //gap: 1rem;
+
+        > * {
+            border: 0.5px solid $linesColor;
+            padding: 0.9rem;
+            
+          }
+  
+      } 
       
       .left {
         
@@ -36,8 +46,9 @@
       }
       
       .right {
-       // justify-content: flex-end;
+        justify-content: flex-end;
         //background-color: blue;
+        width:200;
       }
 
    
