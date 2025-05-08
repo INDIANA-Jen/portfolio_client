@@ -5,11 +5,16 @@
 //"tyles that control the overall layout of the Navcards
 
 .container{
-
+    display: flex;
+    flex-direction: column;
     background-color: $threePrimaryColor;
     height: 50px;
-    width: 292px;
-    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+
+   
+
+   
     
     //gap: 20px;//et Espacement entre les éléments (ajustable) voir la différence :  //justify-content: space-between; 
      // voir la différence padding: 10rem;
