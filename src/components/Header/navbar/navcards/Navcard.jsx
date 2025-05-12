@@ -12,7 +12,11 @@ const Navcard = ({ label, target }) => {
       {/* className={styles.navlink: applies a locally scoped styled class */}
       {/* {label}: dynamically displays the link text */}
       
-      <NavLink to={target} className={styles.navlink}>
+      <NavLink 
+      to={target} 
+      className={({isActive}) => 
+        isActive ? styles.actives : styles.navlink
+      }>
         {label}
       </NavLink>
     </div>
