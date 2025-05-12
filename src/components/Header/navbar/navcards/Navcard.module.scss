@@ -13,5 +13,9 @@
         color:$oneSecondaryColor;
         font-family: $fontfamily; 
         font-size: $Lables;
+
+        &:hover{
+            color: $forSecondaryColor;
+        }
     }
 }
