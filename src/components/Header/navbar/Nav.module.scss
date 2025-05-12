@@ -7,11 +7,15 @@
 
 .container{
 
+    //Display : flex, the css property display: flex; turns an element into a flex contenair. 
+    //this makes easy to lay out is children (direct elements) in a row or column, with precise
+    //control over alignment, spacing, and sizing.
+    // Here, it aligns the elements horizontally, distributes the space between them, centers them vertically
     display: flex;
     background-color: $threePrimaryColor;
     height: 50px;
     width: 100%;
-    overflow: hidden;
+    overflow: hidden; // hide all content overflow
     justify-content: space-between;
     align-items: center;
 
@@ -22,12 +26,13 @@
     }
     
     .left, .right {
-        padding: 0.9rem;
+        padding: 0.9rem; // an inner spacing 
     }
 
     .center {
-        flex: 1;
+        flex: 1; // takes up all  the available space between .left and .right
 
+        // > direct child selector and > *: All direct children, regardless of their type 
         > * {
             border: 0.5px solid $linesColor;
             padding: 0.9rem;
