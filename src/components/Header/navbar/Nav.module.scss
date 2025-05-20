@@ -45,11 +45,13 @@
         justify-content: flex-start;
         width:300px;
         border-right: none;
+        flex-shrink: 0;
     }
     
     .right {
         justify-content: flex-end;
         width:150px;
+        flex-shrink: 0;
     }
 
 }
