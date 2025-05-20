@@ -8,7 +8,6 @@
   width: 100%; // S’adapte au parent
   display: flex;
 
-    
     //navlink (nested inside navacard)
     //this means that the styles apply to all elements with the class navlink that are inside an element whith the class .navcard position: abs
     .navlink{
@@ -30,7 +29,7 @@
         }
     }
     .active {
-        border-bottom: 2px solid $oneAccentColor;
+        border-bottom: 3px solid $oneAccentColor;
        
 }
 }
