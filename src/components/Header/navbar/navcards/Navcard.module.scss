@@ -6,6 +6,7 @@
 // navcard : it is a CSS class slector. It applies the defined styles to all elements that have the class
 .navcard{
 
+    
     //navlink (nested inside navacard)
     //this means that the styles apply to all elements with the class navlink that are inside an element whith the class .navcard
     .navlink{
@@ -14,9 +15,17 @@
         color:$oneSecondaryColor;
         font-family: $fontfamily; 
         font-size: $Lables;
-
+        
+        padding: 0.75rem 0;
+        display: block; 
+        background-color: red;
+       
         &:hover{
             color: $forSecondaryColor;
         }
     }
+    .active {
+        border-bottom: 2px solid $oneAccentColor;
+       
+}
 }
