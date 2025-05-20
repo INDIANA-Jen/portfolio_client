@@ -17,7 +17,7 @@
     width: 100%;
     overflow: hidden; // hide all content overflow
     justify-content: space-between;
-    align-items: center;
+    //align-items: center;
 
     
     .left, .center, .right {
@@ -38,27 +38,36 @@
         
         // > direct child selector and > *: All direct children, regardless of their type 
         > * {
+           
             border: 0.5px solid $linesColor;
            // padding: 0.9rem;
             border-left: none;
             width: 117px;
             border-top: none;
+            text-align: center;
+            border-bottom : none;
             
+           
         }
     } 
 
     .left {
         
-        justify-content: flex-start;
+        //justify-content: flex-start;
         width:300px;
         border-right: none;
         flex-shrink: 0;
+        padding-left: 15px;
+    
+        
     }
     
     .right {
-        justify-content: flex-end;
+       // justify-content: flex-end;
         width:150px;
         flex-shrink: 0;
+        border-left: none;
+        text-align: center;
     }
 
 }
