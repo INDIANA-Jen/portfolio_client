@@ -5,9 +5,9 @@
 
 // navcard : it is a CSS class slector. It applies the defined styles to all elements that have the class
 .navcard{
-       width: 100%; // S’adapte au parent
+  width: 100%; // S’adapte au parent
   display: flex;
-  align-items: center;
+
     
     //navlink (nested inside navacard)
     //this means that the styles apply to all elements with the class navlink that are inside an element whith the class .navcard position: abs
@@ -21,8 +21,8 @@
         
         padding: 0.75rem 0;
      
-        background-color: red;
-         width: 100%; // s’étend pour occuper toute la place
+        //background-color: red;
+         width: 100%; //  s’étend pour occuper toute la place
          
        
         &:hover{

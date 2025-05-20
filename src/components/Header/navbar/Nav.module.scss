@@ -23,21 +23,27 @@
     .left, .center, .right {
         display: flex;
         border: 0.5px solid $linesColor;
+         border-top: none;
+        
+        
     }
     
     .left, .right {
-        padding: 0.9rem; // an inner spacing 
+      // padding: 0.9rem; // an inner spacing 
+      
     }
 
     .center {
         flex: 1; // takes up all  the available space between .left and .right
-
+        
         // > direct child selector and > *: All direct children, regardless of their type 
         > * {
             border: 0.5px solid $linesColor;
-            padding: 0.9rem;
+           // padding: 0.9rem;
             border-left: none;
             width: 117px;
+            border-top: none;
+            
         }
     } 
 
