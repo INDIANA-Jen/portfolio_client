@@ -20,8 +20,11 @@ const Navcard = ({ label, target }) => {
       {/* {label}: dynamically displays the link text */}
       
       <NavLink 
-      to={target} className={getLinkClassName}>
+      to={target} 
+      className={getLinkClassName}
+      >
         {label}
+        
       </NavLink>
     </div>
   );
