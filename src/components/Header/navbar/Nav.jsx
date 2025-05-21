@@ -16,7 +16,7 @@ const leftItem = { label: 'micheal-weaver', target: '/' };
   Each object has the same properties (label and target) to define the link text and decoration respectively 
   */}
 const centerItems = [
-  { label: '_hello', target: '/' },
+  { label: '_hello', target: '/hello' },
   { label: '_about-me', target: '/about' },
   { label: '_projects', target: '/project' },
 ];
