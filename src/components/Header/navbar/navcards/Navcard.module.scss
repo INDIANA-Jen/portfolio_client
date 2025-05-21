@@ -5,25 +5,20 @@
 
 // navcard : it is a CSS class slector. It applies the defined styles to all elements that have the class
 .navcard{
-  width: 100%; // S’adapte au parent
-  display: flex;
+    width: 100%; 
+    display: flex;
 
     //navlink (nested inside navacard)
     //this means that the styles apply to all elements with the class navlink that are inside an element whith the class .navcard position: abs
     .navlink{
-       
-        
+
         text-decoration: none; //Remove the text decoration
         color:$oneSecondaryColor;
         font-family: $fontfamily; 
         font-size: $Lables;
-        
         padding: 0.75rem 0;
-     
-        //background-color: red;
-         width: 100%; //  s’étend pour occuper toute la place
-         
-       
+        width: 100%; 
+
         &:hover{
             color: $forSecondaryColor;
         }
@@ -31,6 +26,5 @@
     .active {
         border-bottom: 3px solid $oneAccentColor;
         color: $forSecondaryColor;
-       
-}
+    }
 }
