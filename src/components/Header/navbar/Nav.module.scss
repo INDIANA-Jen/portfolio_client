@@ -17,53 +17,39 @@
     width: 100%;
     overflow: hidden; // hide all content overflow
     justify-content: space-between;
-    //align-items: center;
-    
 
-    
     .left, .center, .right {
+
         display: flex;
         border: 0.5px solid $linesColor;
-         border-top: none;
-        
-        
+        border-top: none;
     }
-    
-   
 
     .center {
         flex: 1; // takes up all  the available space between .left and .right
         
         // > direct child selector and > *: All direct children, regardless of their type 
         > * {
-           
+
             border: 0.5px solid $linesColor;
-           // padding: 0.9rem;
             border-left: none;
             width: 117px;
             border-top: none;
             text-align: center;
             border-bottom : none;
-            
-           
         }
     } 
 
     .left {
         
-        //justify-content: flex-start;
         width:300px;
         border-right: none;
-        flex-shrink: 0;
+        flex-shrink: 0; // The element never shrinks even when space is lacking.
         text-indent: 15px;
-        //padding-left: 10px;
-        //margin-left: 10px;
-    
-        
     }
     
     .right {
-       // justify-content: flex-end;
+
         width:150px;
         flex-shrink: 0;
         border-left: none;
@@ -71,3 +57,4 @@
     }
 
 }
+
