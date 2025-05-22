@@ -21,6 +21,9 @@ pnpm install
 pnpm run dev or pnpm run dev -- --open
 ```
 
+## Auteur 
+INDI
+
 
 
 
